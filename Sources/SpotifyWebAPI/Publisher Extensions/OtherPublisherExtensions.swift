@@ -135,7 +135,7 @@ public extension Publisher where Output: PagingObjectProtocol {
 
 }
 
-public extension Publisher where Output == Void {
+extension Publisher where Output == Void {
     
     /**
      A convenience wrapper for sink that only requires a `receiveCompletion`
